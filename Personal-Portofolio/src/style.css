@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+}
+#Home{
+    display: flex;
+    width: 100%;
+    height: 63px;
+    background-color: rgb(84, 0, 96);
+    color: white;
+    font-size: 20px;
+}
+#logo{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+#Home nav{
+    margin-top: 20px;
+    margin-left: 450px;
+  
+}
+#Home nav ul a{
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 25px;
+}
+#Home nav ul a:hover{
+    color: rgb(247, 0, 0);
+}
+
+.Banner{
+    background-color: rgba(119, 119, 119, 0.845);
+    /* height: 100%; */
+    height: 530px;
+}
+.Banner h1{
+    margin-top: 20px;
+    margin-left: 470px;
+    color: rgb(0, 112, 110);
+    font-size: 50px;
+}
+.Banner h3{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 430px;
+}
+.Banner p{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 160px;
+}
+.Banner img{
+     margin-left: 510px;
+     width: 210px;
+     height: 180px;
+     margin-top: 70px;
+     border-radius: 140px;
+}
+/* About start here  */
+
+.Bio{
+    /* margin-top: 60px; */
+    background-color: rgb(0, 111, 147);
+    height: 500px;
+}
+.Bio h1{
+    margin-left: 480px;
+    margin-top: -320px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.Bio p{
+    margin-left:480px;
+    margin-right:70px;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    line-height: 25px;
+}
+.Bio img{
+   width: 200px;
+   height: 300px;
+   margin-top: 100px;
+   margin-left: 120px;
+   border-radius: 60px;
+}
+/* start skill here  */
+#Skill{
+    width: 100%;
+    height: 400px;
+    padding-top: 40px;
+}
+#Skill h1{
+    text-align: center;
+    color: rgb(6, 2, 63);
+    text-decoration: underline;
+}
+.skil2{
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.skil2  h2{
+     font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    color: blueviolet;
+}
+.skil1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.skil2 p{
+    margin-top: 10px;
+}
+
+/* start project here */
+#Project{
+    margin-top: -30px;
+    height: 650px;
+    background-color: rgba(240, 211, 47, 0.541);
+}
+#Project h1{
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    color: blue;
+    font-size: 40px;
+   text-decoration: underline;
+}
+#Items{
+    margin-top: 30px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#Items img{
+    width:250px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid   rgb(10, 1, 78);
+}
+#item h4{
+ margin-left: 20px;
+ margin-bottom: 20px;
+ margin-top: 10px;
+ font-size: 25px;
+ color:  rgb(84, 0, 105);
+}
+
+
+/* contact start here  */
+#contact{
+    background-color: rgba(0, 106, 135, 0.578);
+    width: 50%;
+    margin-top: 10px;
+    height: 350px;
+    margin-left: 300px;
+    border-radius: 30px;
+}
+.contact1 {
+    margin-left: 360px;
+    margin-top: -270px;
+    font-size: 30px;
+
+}
+.contact1 h1{
+    color: white;
+    margin-left: -170px;
+    /* margin-bottom: 10px; */
+}
+
+
+.contact2 {
+    padding-top: 90px;
+    margin-left: 200px;
+}
+.contact2 input{
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 250px;
+    height: 30px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 260px;
+
+}
+button:hover{
+    background-color: black;
+}
